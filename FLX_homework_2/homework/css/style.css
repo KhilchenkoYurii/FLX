@@ -1,0 +1,154 @@
+@media print 
+{
+	.tm-sidebar,
+	.heading,
+	.blocks,
+	.img-contact-us,
+	#about,
+	#ideas,
+	#contact,
+	#home .tm-banner 
+	{
+		outline: none
+	}
+	section:before 
+	{
+		display: none;
+	}
+	.flex-2-col.tm-section-title
+	{
+		color: #0101DF;
+	}
+	.tm-content-box .flex-item img 
+	{
+		float: left;
+		width: 250px;
+		height: 250px;
+		
+	}
+	.tm-content-box .padding-medium p 
+	{
+		width: 300px;
+	}
+	section 
+	{
+		margin: -60px 0;
+	}
+}
+
+.box-bg:hover 
+{
+	background-color: lightskyblue;
+	color: #FFFFFF;
+}
+.tm-box-bg-title:hover 
+{
+	color: white;
+}
+.firstletter 
+{
+	color: 	LightSkyBlue;
+	font-size: 30px;
+}
+.tm-content-header,
+nav,
+section 
+{
+	box-shadow: 0px 0px 5px 1px rgba(128, 128, 128, 1);
+}
+.tm-banner 
+{
+	outline: 30px solid #F5F5F5;
+	outline-offset: -30px;
+}
+section::before 
+{
+	content: " ";
+	border-right: 80px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 80px solid LightSkyBlue;
+	border-top: 10px solid 	LightSkyBlue;
+	position: absolute;
+}
+.carousel-inner .tm-section-title 
+{
+	color: #DCDCDC;
+	letter-spacing: 6px;
+}
+h2 ~ p:first-of-type 
+{
+	font-style: italic;
+}
+.tm-content-box.flex-2-col 
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.tm-team-description-container.flex-item > p 
+{
+	text-indent: 25px;
+	line-height: 30px;
+}
+.padding-medium ol li a 
+{
+	color: Black;
+}
+.padding-medium ol li a:visited 
+{
+	text-decoration-line: underline;
+}
+.padding-medium ol li a:hover 
+{
+	text-decoration-line: underline;
+	text-decoration-style: double;
+	color: #87D7FB;
+}
+.padding-medium .text::after 
+{
+	font-size: 10px;
+	color: red;
+	content: 'New';
+	position: absolute;
+}
+.blocks .tm-content-box ul li 
+{
+	padding: 5px;
+}
+.blocks .tm-content-box ul li:nth-child(2n) 
+{
+	background-color: #F2F2F2;
+}
+.blocks .tm-content-box p:first-letter 
+{
+		color: black;
+
+	font-style: italic;
+	font-size: 1.6em;
+}
+button[type="submit"] {
+	width: 130px;
+	background-color: white;
+	color: #87D7FB;
+	border: 1px solid #87D7FB;
+	border-radius: 0;
+	float: right;
+
+}
+.mandatory-field::after 
+{
+	content: "*";
+	color: #FF0000;
+	font-weight: bold;
+}
+.tm-nav-item:hover 
+{
+	background-color: WhiteSmoke;
+}
+button[type="submit"]:hover 
+{
+	background-color: #87D7FB;
+	color: white;
+	border: 1px solid transparent;
+}
